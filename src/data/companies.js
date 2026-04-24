@@ -1,0 +1,18 @@
+export const companies = [
+  { name: "Google",    logo: "🔍" },
+  { name: "Amazon",    logo: "📦" },
+  { name: "Microsoft", logo: "🪟" },
+  { name: "Meta",      logo: "Ⓜ️" },
+  { name: "Apple",     logo: "🍎" },
+  { name: "Flipkart",  logo: "🛒" },
+  { name: "Uber",      logo: "🚗" },
+  { name: "Netflix",   logo: "🎬" },
+  { name: "Goldman Sachs", logo: "🏦" },
+  { name: "Adobe",     logo: "🎨" },
+  { name: "Razorpay",  logo: "💳" },
+  { name: "Swiggy",    logo: "🍔" },
+  { name: "PhonePe",   logo: "📱" },
+  { name: "Paytm",     logo: "💰" },
+  { name: "Zomato",    logo: "🍽️" },
+  { name: "Walmart",   logo: "🏪" },
+];

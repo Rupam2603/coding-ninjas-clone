@@ -1,0 +1,50 @@
+/* Glassmorphism card */
+.glass-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Glow hover effect for cards */
+.card-glow {
+  transition: all 0.3s ease;
+}
+.card-glow:hover {
+  box-shadow: 0 0 30px rgba(246, 108, 59, 0.15),
+              0 20px 40px rgba(0, 0, 0, 0.1);
+  transform: translateY(-4px);
+}
+
+/* Orange gradient backgrounds */
+.bg-gradient-orange {
+  background: linear-gradient(135deg, #f66c3b 0%, #ff9a6c 100%);
+}
+
+/* Dark gradient backgrounds */
+.bg-gradient-dark {
+  background: linear-gradient(180deg, #1a1d23 0%, #13151a 100%);
+}
+
+/* Shimmer loading effect */
+.shimmer {
+  background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.05) 50%, transparent 100%);
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* Tab underline animation */
+.tab-active::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: #f66c3b;
+  border-radius: 3px 3px 0 0;
+}
