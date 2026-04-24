@@ -28,7 +28,7 @@ const CourseDetail = () => {
         <div className="text-center">
           <div className="text-6xl mb-4">😕</div>
           <h2 className="text-2xl font-bold text-gray-900 mb-2">Course Not Found</h2>
-          <p className="text-gray-500 mb-6">The course you're looking for doesn't exist.</p>
+          <p className="text-gray-500 mb-6">The course you're  doesn't exist.</p>
           <Link to="/courses">
             <Button variant="primary">Browse Courses</Button>
           </Link>
